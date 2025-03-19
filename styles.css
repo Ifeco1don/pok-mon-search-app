@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #606c38;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem 0;
+  text-align: center;
+}
+
+h1, h3 {
+  color: #fefae0;
+}
+
+.container {
+  font-size: 1.2rem;
+  background-color: #fefae0;
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+  padding: 1rem 2rem 2rem 2rem;
+  border-radius: 1rem;
+  color: #283618;
+}
+
+.sprite-container {
+  height: 120px;
+  width: 200px;
+  border: 1px solid #dda15e;
+  box-shadow: 0 0 0 0 #dda15e;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sprite-container img {
+  width: 150px;
+}
+
+.inputed {
+  margin: 1rem 0;
+  width: 100%;
+  display: block;
+}
+
+.inputs {
+  height: 2rem;
+  width: 60%;
+  border-radius: 10px;
+  border: 1px solid #dda15e;
+  outline: none;
+  padding: 0 1rem;
+}
+
+button {
+  background-color: #bc6c25;
+  color: #fefae0;
+  padding: 0.33rem 1.3rem;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.1rem;
+}
+
+table, th, td {
+  border: 2px solid #fefae0;
+  border-collapse: collapse;
+  border-radius: 0.5rem;
+}
+
+table {
+  border: 1px solid #606c38;
+}
+
+th, td {
+  padding: 0.5rem 0;
+  background-color: #dda15e;
+  color: #fefae0;
+  width: 10rem;
+}
+
+th {
+  background-color: #bc6c25;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    font-size: 1.2rem;
+    background-color: #fefae0;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    padding: 1rem 2rem 2rem 2rem;
+    border-radius: 1rem;
+    color: #283618;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    font-size: 1.2rem;
+    background-color: #fefae0;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    padding: 1rem 2rem 2rem 2rem;
+    border-radius: 1rem;
+    color: #283618;
+  }
+}
+
